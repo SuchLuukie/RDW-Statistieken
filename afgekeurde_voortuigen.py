@@ -21,7 +21,3 @@ for auto in alle_afgekeurde_autos:
 	dictio[auto["gebrek_identificatie"]].append(auto)
 
 writeJSON("afgekeurde_voortuigen.json", dictio)
-
-#This line is just a test to see if git works.
-
-print("worked")
