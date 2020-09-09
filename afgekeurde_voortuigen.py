@@ -21,3 +21,5 @@ for auto in alle_afgekeurde_autos:
 	dictio[auto["gebrek_identificatie"]].append(auto)
 
 writeJSON("afgekeurde_voortuigen.json", dictio)
+
+print("Yes")
